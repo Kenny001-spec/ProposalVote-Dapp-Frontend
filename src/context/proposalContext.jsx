@@ -7,7 +7,7 @@ import {
 } from "react";
 import useContractInstance from "../hooks/useContractInstance";
 import { Contract } from "ethers";
-import ABI from "../ABI/Proposal.json";
+import ABI from "../ABI/proposal.json";
 import useSignerOrProvider from "../hooks/useSignerOrProvider";
 
 const ProposalContext = createContext({

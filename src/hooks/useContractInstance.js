@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import useSignerOrProvider from "./useSignerOrProvider";
 import { Contract } from "ethers";
-import ABI from "../ABI/Proposal.json";
+import ABI from "../ABI/proposal.json";
 
 const useContractInstance = (withSigner = false) => {
   const { signer, readOnlyProvider } = useSignerOrProvider();

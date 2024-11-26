@@ -3,16 +3,16 @@
     "anonymous": false,
     "inputs": [
       {
-        "indexed": false,
+        "indexed": true,
         "internalType": "string",
         "name": "name",
         "type": "string"
       },
       {
         "indexed": false,
-        "internalType": "uint16",
+        "internalType": "uint256",
         "name": "count",
-        "type": "uint16"
+        "type": "uint256"
       }
     ],
     "name": "ProposalActive",
@@ -22,16 +22,16 @@
     "anonymous": false,
     "inputs": [
       {
-        "indexed": false,
+        "indexed": true,
         "internalType": "string",
         "name": "name",
         "type": "string"
       },
       {
         "indexed": false,
-        "internalType": "uint16",
+        "internalType": "uint256",
         "name": "count",
-        "type": "uint16"
+        "type": "uint256"
       }
     ],
     "name": "ProposalApproved",
@@ -41,7 +41,7 @@
     "anonymous": false,
     "inputs": [
       {
-        "indexed": false,
+        "indexed": true,
         "internalType": "string",
         "name": "name",
         "type": "string"
@@ -125,7 +125,7 @@
   },
   {
     "inputs": [],
-    "name": "getAllProposals",
+    "name": "getAllproposals",
     "outputs": [
       {
         "components": [
